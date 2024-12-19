@@ -1,2 +1,10 @@
-variable "resource_group_name" {}
-variable "location" {}
+variable "locations" {
+  type = string
+  default = "East US"
+}
+
+
+variable "group_name" {
+  type = string
+  default = "miGruopDeResource"
+}

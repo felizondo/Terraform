@@ -15,8 +15,8 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name   = "AKS"
-    storage_account_name  = "felizondotsstorage"
+    resource_group_name   = "TerraformGroup"
+    storage_account_name  = "felizondotfstorage"
     container_name        = "tfstate"
     key                   = "terraform.tfstate"
   }

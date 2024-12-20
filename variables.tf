@@ -6,5 +6,5 @@ variable "locations" {
 
 variable "group_name" {
   type = string
-  default = "miGruopDeResource"
+  default = "TerraformGroup"
 }
